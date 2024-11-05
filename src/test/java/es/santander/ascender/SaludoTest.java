@@ -9,8 +9,6 @@ public class SaludoTest {
     public void testSaludar() {
         Saludo saludo = new Saludo();
         String resultado = saludo.Saludar("Miguel");
-        
-        // Verificamos que el resultado sea el esperado
         assertEquals("Hola\nMiguel", resultado);
     }
 }
